@@ -1,0 +1,7 @@
+{
+    "name": "Style Updater",
+    "main": "code.js",
+    "editorType": ["figma"],
+    "api": "1.0.0"
+  }
+  

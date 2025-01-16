@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h3>Update Text Styles</h3>
+    <button id="updateButton">Update All Text Styles</button>
+    
+    <script>
+      document.getElementById('updateButton').onclick = () => {
+        parent.postMessage({ pluginMessage: { type: 'update-styles' } }, '*');
+      };
+    </script>
+  </body>
+</html>
